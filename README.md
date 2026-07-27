@@ -44,8 +44,8 @@ src/
 # How to Run the Project
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git https://github.com/AtaliaSolash/Mexico_Weather_Analytics.git
+cd Mexico_Weather_Analytics
 ```
 ```bash
 python -m venv .venv
@@ -69,6 +69,14 @@ python etl.py
 ```bash
 streamlit run app.py
 ```
+
+If activating the virtual environment fails in your computer, try instead:
+```bash
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe etl.py
+.\.venv\Scripts\python.exe -m streamlit run app.py
+```
+
 ---
 
 # Data Model and ETL Pipeline
