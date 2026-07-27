@@ -44,7 +44,7 @@ src/
 # How to Run the Project
 
 ```bash
-git https://github.com/AtaliaSolash/Mexico_Weather_Analytics.git
+git clone https://github.com/AtaliaSolash/Mexico_Weather_Analytics.git
 cd Mexico_Weather_Analytics
 ```
 ```bash
