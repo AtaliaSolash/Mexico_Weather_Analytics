@@ -211,7 +211,7 @@ The dashboard also includes a dedicated **Data Quality** page that allows users 
 
 ## Known Limitations
 
-- The dashboard analyzes historical weather data only and does not provide weather forecasts.
+- The dashboard analyzes three years of historical weather data (2023-2025) and does not provide weather forecasts.
 - The Tourism Score is a custom heuristic rather than a validated scientific index.
 - Recommendations do not consider additional travel factors such as accommodation prices, flight costs, holidays, local events, or traveler preferences.
 - Results depend on the availability and completeness of the Open-Meteo historical dataset.
@@ -248,6 +248,7 @@ ai_transcript/
 
 Given additional development time, several enhancements could be added:
 
+- **Enhanced Tourism Weather Score:** Normalize the current Tourism Score to a **1–5 rating** instead of a 0–3 score, making it more intuitive and easier for users to interpret and compare destinations.
 - **Automated monitoring and alerting:** Send email notifications (or integrate with messaging services) when API requests fail or critical data quality issues are detected.
 - **Automated ETL scheduling:** Schedule the ETL pipeline to run periodically (e.g., daily or weekly) using a scheduler.
 - **Comprehensive unit testing:** Add automated tests for the ETL pipeline, data validation logic, and business metric calculations.
