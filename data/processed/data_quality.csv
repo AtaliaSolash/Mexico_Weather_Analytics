@@ -1,0 +1,17 @@
+check_name,status,failed_rows,description
+Missing values in city,PASS,0,city should not contain missing values.
+Missing values in date,PASS,0,date should not contain missing values.
+Missing values in temperature_2m_mean,PASS,0,temperature_2m_mean should not contain missing values.
+Missing values in temperature_2m_max,PASS,0,temperature_2m_max should not contain missing values.
+Missing values in temperature_2m_min,PASS,0,temperature_2m_min should not contain missing values.
+Duplicate city-date rows,PASS,0,Each city should have only one record per day.
+Temperature range,PASS,0,Maximum temperature must be greater than minimum temperature.
+Negative precipitation,PASS,0,Precipitation cannot be negative.
+Negative wind speed,PASS,0,Wind speed cannot be negative.
+Expected cities,PASS,0,All expected cities found.
+Record count - Cabo San Lucas,PASS,0,1096 rows found.
+Record count - Cancun,PASS,0,1096 rows found.
+Record count - Mexico City,PASS,0,1096 rows found.
+Record count - Oaxaca,PASS,0,1096 rows found.
+Record count - Puerto Vallarta,PASS,0,1096 rows found.
+Record count - Tulum,PASS,0,1096 rows found.

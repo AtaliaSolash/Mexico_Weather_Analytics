@@ -1,0 +1,7 @@
+city,status,record_count,error_type,error_message,started_at,completed_at,raw_file
+Mexico City,SUCCESS,1096,,,2026-07-27T14:29:26.130590+00:00,2026-07-27T14:29:31.744496+00:00,data\raw\mexico_city.json
+Cancun,SUCCESS,1096,,,2026-07-27T14:29:31.744496+00:00,2026-07-27T14:29:33.192803+00:00,data\raw\cancun.json
+Tulum,SUCCESS,1096,,,2026-07-27T14:29:33.208614+00:00,2026-07-27T14:29:34.777879+00:00,data\raw\tulum.json
+Puerto Vallarta,SUCCESS,1096,,,2026-07-27T14:29:34.777879+00:00,2026-07-27T14:29:36.187711+00:00,data\raw\puerto_vallarta.json
+Cabo San Lucas,SUCCESS,1096,,,2026-07-27T14:29:36.187711+00:00,2026-07-27T14:29:44.669230+00:00,data\raw\cabo_san_lucas.json
+Oaxaca,SUCCESS,1096,,,2026-07-27T14:29:44.669230+00:00,2026-07-27T14:29:53.528101+00:00,data\raw\oaxaca.json
